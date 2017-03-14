@@ -2,7 +2,7 @@
 lock '3.4.1'
 
 set :application, 'FFA'
-set :repo_url, #{REPO_URL}
+set :https://github.com/trysirius/FFA.git
 
 set :local_user, 'deploy'
 set :stages, %w(production)
